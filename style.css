@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(3, 5, 29, 0.89);
+}
+.container{
+  width: 40%;
+    height: 65vh;
+    /* border: 2px solid red; */
+    margin-top: 8rem;
+    /* display: flex; */
+    justify-content: center;
+    padding: 10px 20px;
+}
+#img{
+    object-fit: cover;
+    background-size: cover;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 6rem;
+    animation: spin linear infinite;
+    animation-duration: 0s;
+}
+@keyframes spin {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+button{
+    border-radius: 50%;
+    border: none;
+    padding: 10px 2px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    position: relative;
+    /* top: 3rem; */
+    /* right: 18rem; */
+        transition: 0.2s ease-in-out;
+
+}
+.btn{
+/* border: 2px solid red; */
+text-align: center;
+padding: 10px 20px;
+border-radius: 10px;
+background-color: rgba(211, 211, 211, 0.281);
+margin-top: 2rem;
+}
+button:active{
+    transform: scale(0.90);
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.imgDiv{
+    border: 2px solid rgba(116, 118, 238, 0.493);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
