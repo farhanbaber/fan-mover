@@ -1,0 +1,28 @@
+Interactive Fan README
+This is a simple interactive fan animation built using HTML, CSS, and JavaScript. Click the fan to turn it on and off.
+
+Features
+Interactive: Click the fan to toggle its movement.
+
+Visual: Smooth animation simulates a rotating fan.
+
+Lightweight: Built with fundamental web technologies.
+
+Technologies Used
+HTML5: Structures the fan's components.
+
+CSS3: Styles the fan and provides the animation.
+
+JavaScript: Handles the click event to start and stop the animation.
+
+How to Use
+Open the file: Simply open the index.html file in your web browser.
+
+Interact: Click the fan to see it spin!
+
+File Structure
+index.html: The main HTML file containing the structure.
+
+style.css: The CSS file for styling and animation.
+
+script.js: The JavaScript file for interactivity.
